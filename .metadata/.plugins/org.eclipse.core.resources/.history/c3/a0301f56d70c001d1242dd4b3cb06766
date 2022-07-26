@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class Hello {
+	
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void BeforeMethod()
+	{
+		
+              
+              System.setProperty("webdriver.chrome.driver", "C:\\Users\\hnomula\\Downloads\\BAT_Canada_CucumberFramework\\BAT_Canada_CucumberFramework\\src\\test\\resources\\driver\\chromedriver.exe");
+              driver = new ChromeDriver();
+             // Dimension dim=new Dimension(1200,768);
+              //driver.manage().window().setSize(dim);
+              
+              
+              
+        }
+		
+	
+}

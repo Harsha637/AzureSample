@@ -1,0 +1,25 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class Hello {
+	
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void BeforeMethod()
+	{
+		
+              
+              System.setProperty("webdriver.chrome.driver", "./src/test/resources/driver/chromedriver.exe");
+              driver = new ChromeDriver();
+              driver.get("https://vuse:VsU6Zc0m0x4d05LG@www.vuse-qa.ca/ca/en/");
+              driver.findElement(By.xpath("//button[@type='submit']")).click();
+              driver.findElement(By.xpath("//*[contains(@class,'Button')]//*[text()='Login/Register']")).click();
+              driver.findElement(By.xpath("(.//*[@name='email'])[1]")).sendKeys("Matypots@bat.com");
+              driver.findElement(By.xpath("(.//*[@name='password'])[1]")).sendKeys("TEST1234");
+    }
+		
+	
+}

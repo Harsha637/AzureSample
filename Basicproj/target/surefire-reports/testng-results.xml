@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90011" started-at="2022-07-26T13:31:08Z" finished-at="2022-07-26T13:32:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90011" started-at="2022-07-26T13:31:08Z" finished-at="2022-07-26T13:32:38Z">
+      <class name="BasicProj.Basicproj.DemoTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="beforeMethod" is-config="true" duration-ms="41086" started-at="2022-07-26T13:31:08Z" finished-at="2022-07-26T13:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AccessoriesPage()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="AccessoriesPage" duration-ms="8756" started-at="2022-07-26T13:31:49Z" finished-at="2022-07-26T13:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessoriesPage -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="AfterMethod" is-config="true" duration-ms="335" started-at="2022-07-26T13:31:58Z" finished-at="2022-07-26T13:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="beforeMethod" is-config="true" duration-ms="27620" started-at="2022-07-26T13:31:58Z" finished-at="2022-07-26T13:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="podspage()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="podspage" duration-ms="11852" started-at="2022-07-26T13:32:26Z" finished-at="2022-07-26T13:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- podspage -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:BasicProj.Basicproj.DemoTest@337d0578]" name="AfterMethod" is-config="true" duration-ms="331" started-at="2022-07-26T13:32:37Z" finished-at="2022-07-26T13:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- BasicProj.Basicproj.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
